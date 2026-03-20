@@ -1,0 +1,22 @@
+{
+  "name": "phantom_pwn",
+  "version": "1.0.0",
+  "description": "Phantom Vault Decryptor & Extractor - TypeScript port",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "decryptor": "node dist/decryptor/index.js",
+    "extractor": "node dist/extractor/index.js"
+  },
+  "dependencies": {
+    "bs58": "^6.0.0",
+    "level": "^8.0.1",
+    "classic-level": "^2.0.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  },
+  "license": "GPL-2.0"
+}
